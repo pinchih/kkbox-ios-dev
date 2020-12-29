@@ -14,7 +14,7 @@ self.tableView.rowHeight = UITableViewAutomaticDimension;
 
 最後再 `viewDidAppear:`中加入 `tableView.reloadData()`
 ``` objc
-- (void)viewDidAppear(BOOL: animated) {
+- (void)viewDidAppear:(BOOL)animated {
 	[self.tableView reloadData];
 }
 ```
